@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE32201E1ABC42AB0047D9D0 /* EnterYourWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32201D1ABC42AB0047D9D0 /* EnterYourWeightViewController.swift */; };
+		CE3220201ABC42ED0047D9D0 /* WeightLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32201F1ABC42ED0047D9D0 /* WeightLogTableViewController.swift */; };
 		CE56F5511ABBD34A007D6A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56F5501ABBD34A007D6A7C /* AppDelegate.swift */; };
 		CE56F5541ABBD34A007D6A7C /* WeightLogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE56F5521ABBD34A007D6A7C /* WeightLogger.xcdatamodeld */; };
 		CE56F5561ABBD34A007D6A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56F5551ABBD34A007D6A7C /* ViewController.swift */; };
@@ -14,6 +16,7 @@
 		CE56F55B1ABBD34A007D6A7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56F55A1ABBD34A007D6A7C /* Images.xcassets */; };
 		CE56F55E1ABBD34A007D6A7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE56F55C1ABBD34A007D6A7C /* LaunchScreen.xib */; };
 		CE56F56A1ABBD34B007D6A7C /* WeightLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56F5691ABBD34B007D6A7C /* WeightLoggerTests.swift */; };
+		CE9DCC881AC6907C00835F99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DCC871AC6907C00835F99 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE32201D1ABC42AB0047D9D0 /* EnterYourWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterYourWeightViewController.swift; sourceTree = "<group>"; };
+		CE32201F1ABC42ED0047D9D0 /* WeightLogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightLogTableViewController.swift; sourceTree = "<group>"; };
 		CE56F54B1ABBD34A007D6A7C /* WeightLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE56F54F1ABBD34A007D6A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE56F5501ABBD34A007D6A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		CE56F5631ABBD34B007D6A7C /* WeightLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE56F5681ABBD34B007D6A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE56F5691ABBD34B007D6A7C /* WeightLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLoggerTests.swift; sourceTree = "<group>"; };
+		CE9DCC871AC6907C00835F99 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				CE56F5501ABBD34A007D6A7C /* AppDelegate.swift */,
+				CE9DCC871AC6907C00835F99 /* DetailViewController.swift */,
 				CE56F5551ABBD34A007D6A7C /* ViewController.swift */,
 				CE56F5571ABBD34A007D6A7C /* Main.storyboard */,
+				CE32201D1ABC42AB0047D9D0 /* EnterYourWeightViewController.swift */,
+				CE32201F1ABC42ED0047D9D0 /* WeightLogTableViewController.swift */,
 				CE56F55A1ABBD34A007D6A7C /* Images.xcassets */,
 				CE56F55C1ABBD34A007D6A7C /* LaunchScreen.xib */,
 				CE56F5521ABBD34A007D6A7C /* WeightLogger.xcdatamodeld */,
@@ -216,7 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE56F5561ABBD34A007D6A7C /* ViewController.swift in Sources */,
+				CE3220201ABC42ED0047D9D0 /* WeightLogTableViewController.swift in Sources */,
 				CE56F5511ABBD34A007D6A7C /* AppDelegate.swift in Sources */,
+				CE9DCC881AC6907C00835F99 /* DetailViewController.swift in Sources */,
+				CE32201E1ABC42AB0047D9D0 /* EnterYourWeightViewController.swift in Sources */,
 				CE56F5541ABBD34A007D6A7C /* WeightLogger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +423,7 @@
 				CE56F56F1ABBD34B007D6A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE56F5701ABBD34B007D6A7C /* Build configuration list for PBXNativeTarget "WeightLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				CE56F5721ABBD34B007D6A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
